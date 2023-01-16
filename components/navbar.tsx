@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <div className="w-full px-8 py-4 shadow-md fixed">
       <div className="flex justify-between items-center">
         <div>
-          <a
+          <Link
             href="/"
             className="flex justify-center items-center gap-2 decoration-o"
           >
@@ -16,7 +17,7 @@ export default function Navbar() {
               height="48"
             ></Image>
             <span className="font-medium">Bluumoon</span>
-          </a>
+          </Link>
         </div>
         <div>
           <ul className="list-none flex justify-center items-center gap-x-4">
