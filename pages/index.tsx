@@ -16,9 +16,10 @@ export default function Home() {
       </Head>
       <main className="container max-w-full h-screen">
         <section className="h-full" id="home">
-          <div className="flex flex-col justify-center items-center h-full">
+          {/* <Navbar /> */}
+          <div className="flex flex-col justify-center items-center h-full dark:bg-[#2e2f3e]">
             <Image src="/underconstruction.png" alt="Página en construcción" width="400" height="138"></Image>
-            <h4 className="select-none">Bajo construcción</h4>
+            <h4 className="select-none text-black dark:text-white">Bajo construcción</h4>
           </div>
         </section>
       </main>
