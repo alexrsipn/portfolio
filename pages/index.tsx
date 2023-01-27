@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main className="container max-w-full h-screen">
         <section className="h-full" id="home">
           <UnderConstruction/>
