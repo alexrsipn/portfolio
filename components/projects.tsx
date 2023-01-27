@@ -34,7 +34,7 @@ const Projects = (): JSX.Element => {
               href="https://www.incom.mx"
               title="INCOM - La ferretera de las telecomunicaciones"
               target="_blank"
-              rel="noreferer noopener"
+              rel="noreferrer noopener"
               className="relative order-2"
             >
               <Image
@@ -71,7 +71,7 @@ const Projects = (): JSX.Element => {
               href="https://www.mauhaustoys.com"
               title="MAUHAUSTOYS - Del mito a la realidad"
               target="_blank"
-              rel="noreferer noopener"
+              rel="noreferrer noopener"
               className="relative order-1"
             >
               <Image

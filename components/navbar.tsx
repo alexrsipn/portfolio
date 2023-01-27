@@ -62,7 +62,7 @@ const Navbar = (): JSX.Element => {
             <li>
               <a href="#Contacto">Contacto</a>
             </li>
-            <li>
+            {/* <li>
               <div className="flex justify-between items-center gap-x-1">
                 {isDarkMode ? (
                   <span className="text-gainsboro-600">
@@ -117,7 +117,7 @@ const Navbar = (): JSX.Element => {
                   />
                 </Switch>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="flex lg:hidden">
