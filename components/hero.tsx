@@ -4,7 +4,7 @@ const Hero = (): JSX.Element => {
   return (
     <section
       id="Home"
-      className="w-full bg-aliceBlue-500 dark:bg-rbFogra29-500 bg-hero-pattern"
+      className="w-full bg-aliceBlue-500 dark:bg-rbFogra29-500 bg-hero-pattern lg:bg-repeat-round"
     >
       <div className=" flex flex-col lg:flex lg:flex-row m-8">
         <div className="w-full lg:w-2/3 flex flex-col justify-center items-center">
@@ -15,7 +15,7 @@ const Hero = (): JSX.Element => {
             <h4 className="font-semibold text-xl lg:text-3xl leading-relaxed text-cornflowerBlue-600 dark:text-aliceBlue-500">
               Desarrollador Analista
             </h4>
-            <p className="font-normal leading-normal text-cornflowerBlue-600 bg-white bg-opacity-80 lg:bg-transparent rounded text-center lg:text-left dark:text-aliceBlue-500">
+            <p className="font-normal leading-normal text-cornflowerBlue-600 bg-white bg-opacity-80 dark:bg-transparent rounded text-center lg:text-left dark:text-aliceBlue-500">
               Ayudo a compañías a desarrollar soluciones
             </p>
           </div>

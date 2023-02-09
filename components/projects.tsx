@@ -8,7 +8,9 @@ const Projects = (): JSX.Element => {
       className="container bg-aliceBlue-200 dark:bg-rbFogra29-500"
     >
       <div className="m-8">
-        <h2 className="font-bold text-2xl lg:text-4xl leading-loose">Proyectos</h2>
+        <h2 className="font-bold text-2xl lg:text-4xl leading-loose py-2">
+          Proyectos
+        </h2>
         <div className="flex flex-col justify-center items-center gap-4">
           {/* Proyecto INCOM */}
           <div className="w-4/5 h-96 lg:h-64 grid sm:grid-flow-row lg:grid-flow-col lg:auto-cols-fr sm:auto-rows-fr border border-rbFogra29-500 rounded-md shadow-md hover:scale-[1.01] hover:shadow-2xl transition ease-out duration-500">
