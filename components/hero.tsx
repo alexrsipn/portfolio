@@ -4,20 +4,37 @@ const Hero = (): JSX.Element => {
   return (
     <section
       id="Home"
-      className="w-full bg-aliceBlue-500 dark:bg-rbFogra29-500 bg-hero-pattern lg:bg-repeat-round"
+      className="w-full bg-opacity-80 dark:bg-rbFogra29-500 bg-hero-pattern bg-auto bg-cover "
     >
-      <div className=" flex flex-col lg:flex lg:flex-row m-8">
+      <div className="flex flex-col lg:flex lg:flex-row mt-20">
         <div className="w-full lg:w-2/3 flex flex-col justify-center items-center">
-          <div className="w-full text-center lg:text-left lg:px-16">
-            <h2 className="font-black text-2xl leading-relaxed lg:text-5xl lg:leading-loose text-cornflowerBlue-700 dark:text-aliceBlue-400">
-              Hola, soy Alexis Ruiz 👋
-            </h2>
-            <h4 className="font-semibold text-xl lg:text-3xl leading-relaxed text-cornflowerBlue-600 dark:text-aliceBlue-500">
-              Desarrollador Analista
-            </h4>
-            <p className="font-normal leading-normal text-cornflowerBlue-600 bg-white bg-opacity-80 dark:bg-transparent rounded text-center lg:text-left dark:text-aliceBlue-500">
-              Ayudo a compañías a desarrollar soluciones
-            </p>
+          <div className="w-5/6 h-3/4">
+            <div className="grid grid-cols-1 grid-rows-3 grid-flow-col h-full bg-white dark:bg-b-500 rounded-3xl border-2 border-cornflowerBlue-500 border-opacity-75 shadow-lg">
+              <div className="flex justify-center items-center">
+                <h2 className="font-black text-2xl text-center lg:text-5xl text-cornflowerBlue-500 dark:text-aliceBlue-400 select-none">
+                  Hola, soy Alexis Ruiz 👋
+                </h2>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <h4 className="font-semibold text-xl lg:text-3xl leading-relaxed text-cornflowerBlue-500 dark:text-aliceBlue-500">
+                  Desarrollador Analista
+                </h4>
+              </div>
+              <div className="text-center px-16">
+                <p className="font-normal leading-normal text-cornflowerBlue-600 text-center dark:text-aliceBlue-500">
+                  Soy un desarrollador de software con más de 3 años de
+                  experiencia, destacado en análisis, resolución de problemas y
+                  creación de soluciones eficientes de TI.
+                </p>
+                <p className="font-normal leading-normal text-cornflowerBlue-600 text-center dark:text-aliceBlue-500">
+                  Experimentado en ABSL, Python, JavaScript, bases de datos y
+                  servidores.
+                </p>
+                <p className="font-normal leading-normal text-cornflowerBlue-600 text-center dark:text-aliceBlue-500">
+                  Involucrado en todo el ciclo de vida del desarrollo.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="lg:w-1/3 flex justify-center lg:justify-start items-center">
@@ -30,7 +47,7 @@ const Hero = (): JSX.Element => {
           />
         </div>
       </div>
-      <div className="w-full flex justify-center items-center mb-8">
+      <div className="w-full flex justify-center items-center my-8">
         <a
           href="mailto:alexrs.escom@gmail.com"
           className="font-semibold text-lg lg:text-2xl text-white bg-emerald-500 hover:bg-emerald-600 dark:bg-emerald-600 dark:hover:bg-emerald-700 px-16 lg:px-32 py-4 rounded-md shadow-md"

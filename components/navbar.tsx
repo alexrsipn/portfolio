@@ -24,11 +24,10 @@ const Navbar = (): JSX.Element => {
   }, [isDarkMode]);
   const handleMobileMenu = () => {
     setOpenMenu(!openMenu);
-    console.log(openMenu);
   };
   return (
     <>
-      <div className="w-full block px-8 py-4 shadow-md bg-white dark:bg-rbFogra39-500 z-10">
+      <div className="w-full block px-8 py-4 shadow-md bg-white dark:bg-rbFogra39-500 z-10 fixed top-0">
         <div className="flex justify-between items-center">
           <div className={openMenu ? "hidden" : "block"}>
             <Link
@@ -63,7 +62,7 @@ const Navbar = (): JSX.Element => {
               <li>
                 <a href="#Contacto">Contacto</a>
               </li>
-              <li>
+              {/*<li>
                 <div className="flex justify-between items-center gap-x-1">
                   {isDarkMode ? (
                     <span className="text-gainsboro-600">
@@ -118,7 +117,7 @@ const Navbar = (): JSX.Element => {
                     />
                   </Switch>
                 </div>
-              </li>
+              </li>*/}
             </ul>
           </div>
           <div className="flex lg:hidden">
@@ -148,7 +147,11 @@ const Navbar = (): JSX.Element => {
         </div>
       </div>
       <div
-        className={openMenu ? "max-w-full h-full absolute inset-0 block overflow-hidden bg-white" : "hidden"}
+        className={
+          openMenu
+            ? "max-w-full h-full absolute inset-0 block overflow-hidden bg-white"
+            : "hidden"
+        }
       >
         <nav>
           <ul>

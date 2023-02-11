@@ -5,10 +5,10 @@ const Projects = (): JSX.Element => {
   return (
     <section
       id="Projects"
-      className="container bg-aliceBlue-200 dark:bg-rbFogra29-500"
+      className="container bg-aliceBlue-200 dark:bg-rbFogra29-500 pt-16 border-b"
     >
       <div className="m-8">
-        <h2 className="font-bold text-2xl lg:text-4xl leading-loose py-2">
+        <h2 className="font-bold text-2xl lg:text-4xl leading-relaxed mb-8">
           Proyectos
         </h2>
         <div className="flex flex-col justify-center items-center gap-4">
@@ -25,12 +25,12 @@ const Projects = (): JSX.Element => {
                   sector
                 </p>
               </div>
-              <Link
+              {/*<Link
                 href="#"
                 className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-md text-white font-mono font-semibold"
               >
                 Caso de estudio
-              </Link>
+              </Link>*/}
             </div>
             <a
               href="https://www.incom.mx"
@@ -62,12 +62,12 @@ const Projects = (): JSX.Element => {
                   Disney y más.
                 </p>
               </div>
-              <Link
+              {/*<Link
                 href="#"
                 className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-md text-white font-mono font-semibold"
               >
                 Caso de estudio
-              </Link>
+              </Link>*/}
             </div>
             <a
               href="https://www.mauhaustoys.com"
@@ -86,6 +86,41 @@ const Projects = (): JSX.Element => {
             </a>
           </div>
           {/* Fin de proyecto MAUHAUS */}
+          {/* Proyecto INCOM */}
+          <div className="w-4/5 h-96 lg:h-64 grid sm:grid-flow-row lg:grid-flow-col lg:auto-cols-fr sm:auto-rows-fr border border-rbFogra29-500 rounded-md shadow-md hover:scale-[1.01] hover:shadow-2xl transition ease-out duration-500">
+            <div className="flex flex-col justify-center items-center gap-4 order-1">
+              <div className="text-center">
+                <h4 className="font-semibold text-lg lg:text-2xl tracking-widest leading-relaxed">
+                  GRUPO CORSEC
+                </h4>
+                <p className="font-medium text-sm lg:text-base px-4 leading-normal max-w-lg">
+                  Firma internacional especializada en servicios de consultoría,
+                  capacitación, auditoría, responsabilidad social corporativa,
+                  optimización empresarial, sistemas de gestión y
+                  fortalecimiento institucional.
+                </p>
+              </div>
+              {/*<Link
+                href="#"
+                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-md text-white font-mono font-semibold"
+              >
+                Caso de estudio
+              </Link>*/}
+            </div>
+            <div
+              title="Plataforma Sistema de Gestión de la Calidad"
+              className="relative order-2"
+            >
+              <Image
+                src="/PSGC_1.png"
+                alt="Proyecto INCOM"
+                width="600"
+                height="444"
+                className="absolute inset-0 h-full w-full object-cover object-top opacity-50 hover:opacity-100 transition ease-in-out duration-500 lg:rounded-tr-md lg:rounded-br-md"
+              ></Image>
+            </div>
+          </div>
+          {/* Fin de proyecto INCOM */}
         </div>
       </div>
     </section>
