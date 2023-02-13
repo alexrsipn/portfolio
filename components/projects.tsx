@@ -5,7 +5,7 @@ const Projects = (): JSX.Element => {
   return (
     <section
       id="Projects"
-      className="container bg-aliceBlue-200 dark:bg-rbFogra29-500 pt-16 border-b"
+      className="container bg-white dark:bg-rbFogra29-500 pt-16 border-b"
     >
       <div className="m-8">
         <h2 className="font-bold text-2xl lg:text-4xl leading-relaxed mb-8">

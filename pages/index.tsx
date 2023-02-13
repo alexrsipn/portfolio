@@ -5,6 +5,9 @@ import UnderConstruction from "@/components/underconstruction";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
+import References from "@/components/references";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,8 +23,10 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Projects />
-        {/*<Skills />*/}
-        <UnderConstruction />
+        <Skills />
+        <References />
+        <Contact />
+        {/*<Footer />*/}
       </main>
     </>
   );

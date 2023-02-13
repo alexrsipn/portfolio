@@ -57,10 +57,10 @@ const Navbar = (): JSX.Element => {
                 <a href="#Skills">Habilidades</a>
               </li>
               <li>
-                <a href="#Referencias">Referencias</a>
+                <a href="#References">Referencias</a>
               </li>
               <li>
-                <a href="#Contacto">Contacto</a>
+                <a href="#Contact">Contacto</a>
               </li>
               {/*<li>
                 <div className="flex justify-between items-center gap-x-1">
