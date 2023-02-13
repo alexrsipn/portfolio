@@ -38,8 +38,8 @@ const ContactForm = (): JSX.Element => {
     });
   };
   return (
-    /*<form action="/api/contactMe" method="POST" className="w-4/5 py-8 px-4">*/
-    <form onSubmit={handleSubmit(onSubmit)} className="w-4/5 py-8 px-4">
+    <form action="/api/contactMe" method="POST" className="w-4/5 py-8 px-4">
+      {/*<form onSubmit={handleSubmit(onSubmit)} className="w-4/5 py-8 px-4">*/}
       <div className="flex flex-col justify-center items-center gap-y-2">
         <div className="w-full flex justify-between items-center">
           <div className="flex justify-center items-center gap-x-4">
