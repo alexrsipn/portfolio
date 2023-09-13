@@ -4,13 +4,13 @@ const Hero = (): JSX.Element => {
   return (
     <section
       id="Home"
-      className="w-full bg-opacity-80 dark:bg-rbFogra29-500 bg-hero-pattern bg-auto bg-cover "
+      className="w-full bg-opacity-80 dark:bg-rbFogra29-500 bg-hero-pattern bg-cover "
     >
       <div className="flex flex-col lg:flex lg:flex-row mt-20">
         <div className="w-full lg:w-2/3 flex flex-col justify-center items-center">
           <div className="w-5/6 h-3/4">
-            <div className="grid grid-cols-1 grid-rows-3 grid-flow-col h-full bg-white dark:bg-b-500 rounded-3xl border-2 border-cornflowerBlue-500 border-opacity-75 shadow-lg">
-              <div className="flex justify-center items-center">
+            <div className="grid grid-flow-row gap-8 lg:grid-flow-col bg-white dark:bg-b-500 rounded-3xl border-2 border-cornflowerBlue-500 border-opacity-75 shadow-lg">
+              <div className="flex justify-center items-center pt-8">
                 <h2 className="font-black text-2xl text-center lg:text-5xl text-cornflowerBlue-500 dark:text-aliceBlue-400 select-none">
                   Hola, soy Alexis Ruiz 👋
                 </h2>
@@ -20,7 +20,7 @@ const Hero = (): JSX.Element => {
                   Desarrollador Analista
                 </h4>
               </div>
-              <div className="text-center px-16">
+              <div className="p-4 lg:px-16 text-justify">
                 <p className="font-normal leading-normal text-cornflowerBlue-600 text-center dark:text-aliceBlue-500">
                   Soy un desarrollador de software con más de 3 años de
                   experiencia, destacado en análisis, resolución de problemas y

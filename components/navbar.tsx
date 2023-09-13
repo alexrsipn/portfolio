@@ -120,7 +120,7 @@ const Navbar = (): JSX.Element => {
               </li>*/}
             </ul>
           </div>
-          <div className="flex lg:hidden">
+          {/* <div className="flex lg:hidden">
             <button
               onClick={handleMobileMenu}
               title={openMenu ? "Cerrar" : "Abrir"}
@@ -143,7 +143,7 @@ const Navbar = (): JSX.Element => {
                 </svg>
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
